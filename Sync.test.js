@@ -1,4 +1,4 @@
-const googleSearch = require("./script");
+const googleSearch = require("./Sync");
 const dbMock = [
   "cats.com",
   "souprecipes.com",

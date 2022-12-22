@@ -13,6 +13,4 @@ const googleSearch = (searchInput, db) => {
   });
   return matches.length > 3 ? matches.slice(0, 4) : matches;
 };
-
-console.log(googleSearch(".com", googleDatabase));
 module.exports = googleSearch;

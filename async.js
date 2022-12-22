@@ -7,4 +7,4 @@ const getPeople = async (fetch) => {
     results: data.results,
   };
 };
-module.exports = { getPeople };
+module.exports = getPeople;
